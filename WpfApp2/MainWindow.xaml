@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="460" Width="680">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF899A23"/>
+                <GradientStop Color="#FF042E4E" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click" Content="Login" Height="33" Width="72" Background="#FF6ACC67"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,127,0,0" TextWrapping="Wrap" Text="Digite seu email" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,190,0,0" TextWrapping="Wrap" Text="Digite sua senha" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Login"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Senha"/></TextBlock>
+    </Grid>
+</Window>
