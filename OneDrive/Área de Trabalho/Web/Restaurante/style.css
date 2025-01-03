@@ -1,0 +1,246 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+
+h2 {
+    color: rgb(83, 2, 20);
+    text-align: center;
+    
+    padding: 2px;
+    border-radius: 15px;
+}
+
+img{
+    margin: auto;
+    max-width: 50%;
+    display: block;
+    padding: 10px;
+}
+
+
+.container{
+    margin: auto;
+    max-width: 80%;
+    display: block;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    padding: 8px;
+}
+
+
+p {
+    text-align: justify;
+    padding: 30px;
+    display: block;
+    font-size: large;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    background-color: #5e0404; 
+    color: rgb(255, 255, 255);
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 200px; 
+    height: auto;
+}
+
+.menu a {
+    padding: 10px;
+    color: rgb(230, 228, 214);
+    text-decoration: none;
+}
+
+.menu ul {
+    margin-right: 0px; 
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a:hover{
+    color: black;
+}
+
+.footer-bar {
+    background-color: #5e0404; 
+    color: white;
+    text-align: center; 
+    padding: 10px; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    font-size: 14px; 
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+}
+ /* contato endereço e numero */
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    padding: 10px; 
+}
+
+li {
+    margin-bottom: 15px; 
+}
+
+.sublista {
+    margin-left: 20px; 
+    margin-bottom: 5px;
+    list-style-type: circle;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #555 
+}
+
+
+
+/* contato  form*/
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+form input[type="radio"] + label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+h3{
+    text-align: center;
+}
+
+/* cardapio */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #8B0000; /* Fundo vinho */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternar cores */
+}
+
+img.cardapio {
+    width: 150px; /* Aumenta o tamanho da imagem */
+    height: auto;
+    border-radius: 8px;
+}
+
+td:first-child {
+    width: 180px; /* Aumenta um pouco o espaço da coluna de foto */
+    text-align: center; /* Centraliza a imagem na célula */
+}
+
+td:nth-child(2) {
+    width: 500px; /* Diminui um pouco o espaço da descrição */
+}
+
+td:nth-child(3) {
+    width: 150px; /* Mantém o tamanho do preço */
+    text-align: right; /* Alinha o preço à direita */
+}
+
+table tr:hover {
+    background-color: #f1f1f1; /* Efeito hover na linha */
+}

@@ -1,0 +1,96 @@
+/* CSS */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+
+}
+.header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  font-size: 1.5rem;
+}
+.main-banner {
+  background-color: #f8f9fa;
+}
+.main-banner h1 {
+  color: #343a40;
+}
+.buttons-section button {
+  margin: 10px;
+}
+.notifications h2 {
+  font-size: 1.8rem;
+}
+.footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+}
+/* contato */
+.navbar-expand-lg{
+  background-color: #FB8B24;
+}
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.social-links a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+}
+.social-links a:hover {
+  color: #007bff;
+}
+
+/* Login */
+body {
+  background-color: #d9e7fc;
+  font-family: Arial, sans-serif;
+}
+.contact-container {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #A09CB0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+}
+.contact-header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+.contact-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.social-links a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #555;
+  transition: color 0.3s;
+}
+.social-links a:hover {
+  color: #007bff;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}

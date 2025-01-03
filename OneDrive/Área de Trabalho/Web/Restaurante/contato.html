@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trattoria Allegro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="container">
+            <div class="logo">
+                <img src="logorestaurante.jpeg" alt="Trattoria Allegro">
+            </div>
+        
+         <nav class="menu"> 
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="cardapio.html">Cardápio</a></li>
+              <li><a href="servicos.html">Serviços</a></li>
+              <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+    </div>
+    </header>
+
+
+    <ul>
+        <li><strong>Endereço</strong>
+        <ul>
+            <li class="sublista">Avenida Nossa Senhora de Fátima, 1128</li>
+        </ul>
+        </li>
+    </ul>
+    <ul>
+        <li><strong>Telefone</strong>
+        <ul>
+            <li class="sublista">19 95472-6548 e 19 3887-2566</li>
+        </ul>
+        </li>
+    </ul>
+
+    <h3>Fale Conosco:</h3>
+    <div>
+        <form action="/action_page.php">
+          <label for="fname">Nome</label>
+          <input type="text" id="fname" name="firstname" placeholder="Seu nome.."><br>
+    
+          <label for="lname">Sobrenome</label>
+          <input type="text" id="lname" name="lastname" placeholder="Seu sobrenome.."><br>
+        
+          <label for="assunto">Escolha o Assunto: </label><br>
+          <input type="radio" id="duvida" name="escolha" value="duvida">
+          <label for="duvida">Dúvida</label><br>
+          <input type="radio" id="Sugestão" name="escolha" value="Sugestão">
+          <label for="Sugestão">Sugestão</label><br>
+          <input type="radio" id="Reclamação" name="escolha" value="Reclamação">
+          <label for="Reclamação">Reclamação</label><br>
+          
+          <label for="fname">Digite aqui seu comentário</label><br>
+          <input type="text" id="fname" name="fname" value=""><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+
+    <footer>
+        <div class="footer-bar">
+          <p>Trattoria Allegro © 2024 - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
